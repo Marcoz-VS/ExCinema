@@ -34,7 +34,6 @@ const Home = () => {
     console.log('Renderizando filmes:', filmes);
     return (
         <div>
-            <h1>aaaa</h1>
             <div className="card-container">
                 {filmes.map((filme) => (
                     <Card key={filme.id} filme={filme} />
